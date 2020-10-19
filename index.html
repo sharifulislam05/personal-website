@@ -3,69 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sm sharif</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <title>sm sharif</title>
 </head>
 <body>
-    <!--header section-->
-    <section class="header">   
-        <div class="header-left">
-            <h1>Hello I'm <br>
-            <span class="name-highlight">Sm Sharif</span>
-            </h1>
-            <p>You might saw me jumping,claimbing buildings,and stopping trains.But nobody pays me a dime for that work</p>
-            <a class="top-button" href="https://www.linkedin.com/in/smshorif52" target="_blank">HIRE ME</a>   
+    <!-- Header section start -->
+    <header class="container header-container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-sm-6 banner-text">
+                <h1>Hello I'm</h1>
+                <h2> Sm Sharif</h2>
+                <p class="text-secondary">You might saw me jumping,claimbing buildings,and stopping trains.But nobody pays me a dime for that work</p>
+                <button>HIRE ME</button>
+            </div>
+            <div class="col-12 col-md-6 col-sm-6">
+                <img src="./images/logos/peter.png" class="img-fluid w-75"  alt="">
+            </div>
         </div>
-        <div class="header-right">
-            <img src="img/sharif2.png" alt="Photo">
-        </div>
-    </section>
-    <!--Biography Section-->
-    <section class="biography">
-        <div class="biography-left">
-            <img src="img/sharif-2.png" alt="Photo">
-        </div>
-        <div class="biography-right">
-            <h2>Biography</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
-            <a class="cv-button" target="_blank" href="https://www.linkedin.com/in/smshorif52">DOWNLOAD CV</a>
-        </div>
-    </section>
-    <!--my work section-->
-
-    <section class="my-work">
-        <div class="my-work-top">
-            <h2>My Last Work</h2>
-        </div>
-        <div class="my-work-full">
-            <img src="img/work-1.png" alt="work-1">
-        </div>
-        <div class="my-work-full">
-            <img src="img/work-2.jpg" alt="work-2">
-        </div>
-        <div class="my-work-full">
-            <img src="img/work-3.jpg" alt="work-3">
+    </header>
+    <!-- Biography section start -->
+    <section class="container biography-container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="./images/logos/peter_dream.png" class="img-fluid w-75" alt="">
+            </div>
+            <div class="col-md-6 biography-text">
+                <h1 class="mb-4">Biography</h1>
+                <p class="text-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+                <button>Resume Download</button>
+            </div>
         </div>
     </section>
-    <!--client message section-->
-    <section class="client-side">
-        <div class>
-            <h2>What Client Are Say </h2> <br> <br>
-            <p> <span id="founder-name">Bruce Moccy</span> <br>
-            Founder & CEO Aleas 
-            </p>
-            <q>Lorem Ipsum is simply dummy text of the <br> 
-            printing and typesetting industry</q>
-        </div>
-        <div class="email">
-            <h6>leave me a message in the <br>
-            <span id="email-name">smshorif52@gmail.com</span> 
-            </h6>
+    <!-- latest work port start -->
+    <section class="work-container container">
+            <div class="work-header">
+                <h1>My Latest Work</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="./images/latest-work/work-1.png" class="img-fluid"  alt="">
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/latest-work/work-2.jpg"  class="img-fluid" alt="">
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/latest-work/work-3.jpg"  class="img-fluid" alt="">
+                </div>
+            </div>
+    </section>
+    <!-- client feedback part -->
+    <section class="container client-feedback text-center">
+        <h1 class="mb-5">What Client Are Say</h1>
+        <h6>Bruce Moccy</h6>
+        <p class="text-secondary">Founder & CEO Aleas</p>
+        <h6 class="mb-5">"Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry"</h6>
+        <div class="client-message mx-auto">
+            <p>Leave me a message in the</p>
+            <h3> smshorif52@gmail.com</h3>
         </div>
     </section>
-    <!----------------footer section--------------->
-    <footer>
+    <footer class="text-center">
         <p>sm sharif,©2020 All Right Reserved</p>
     </footer>
 </body>
